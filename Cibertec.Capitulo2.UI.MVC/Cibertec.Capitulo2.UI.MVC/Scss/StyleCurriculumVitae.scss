@@ -1,0 +1,42 @@
+﻿@import "Helper/Colors";
+body {
+    background-color: $cv-body-color;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    height: 350px;
+    background-color: $cv-header-color;
+    width: 1200px;
+    border-top-right-radius: 170px 137px;
+
+    .logo {
+        height: 65%;
+    }
+
+    .div-indice-cv {
+        height: 25%;
+        padding-left: 30px;
+
+        .indice-cv {
+            color: $cv-index-color;
+            font-size: 18px;
+        }
+    }
+}
+
+section {
+    width: 1200px;
+    height: 1000px;
+    background-color: $cv-section-color;
+
+    h1 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding: 15px;
+    }
+}
+

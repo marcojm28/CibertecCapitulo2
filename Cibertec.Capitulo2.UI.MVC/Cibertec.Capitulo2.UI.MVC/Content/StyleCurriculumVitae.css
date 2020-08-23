@@ -1,0 +1,27 @@
+﻿body {
+  background-color: #00487c;
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 350px;
+  background-color: #ffffff;
+  width: 1200px;
+  border-top-right-radius: 170px 137px; }
+  header .logo {
+    height: 65%; }
+  header .div-indice-cv {
+    height: 25%;
+    padding-left: 30px; }
+    header .div-indice-cv .indice-cv {
+      color: #ff0000;
+      font-size: 18px; }
+
+section {
+  width: 1200px;
+  height: 1000px;
+  background-color: #8db8d7; }
+  section h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 15px; }
