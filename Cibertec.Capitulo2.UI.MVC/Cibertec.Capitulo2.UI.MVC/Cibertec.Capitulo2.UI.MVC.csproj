@@ -132,11 +132,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\html\CurriculumVitae.html" />
+    <Content Include="Content\html\Tuenti.html" />
     <Content Include="Content\img\FotoCarnet.jpg" />
     <Content Include="Content\img\logo.PNG" />
+    <Content Include="Content\img\logoTuenti.PNG" />
     <Content Include="Content\StyleCurriculumVitae.css" />
     <Content Include="Content\StyleCurriculumVitae.min.css">
       <DependentUpon>StyleCurriculumVitae.css</DependentUpon>
+    </Content>
+    <Content Include="Content\StyleTuenti.css" />
+    <Content Include="Content\StyleTuenti.min.css">
+      <DependentUpon>StyleTuenti.css</DependentUpon>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -165,6 +171,12 @@
     <Content Include="Scss\StyleCurriculumVitae.min.css">
       <DependentUpon>StyleCurriculumVitae.css</DependentUpon>
     </Content>
+    <Content Include="Scss\StyleTuenti.css">
+      <DependentUpon>StyleTuenti.scss</DependentUpon>
+    </Content>
+    <Content Include="Scss\StyleTuenti.min.css">
+      <DependentUpon>StyleTuenti.css</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -181,6 +193,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scss\StyleCurriculumVitae.scss" />
     <Content Include="Scss\Helper\Colors.scss" />
+    <Content Include="Scss\StyleTuenti.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
