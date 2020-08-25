@@ -32,7 +32,7 @@ section {
     width: 1200px;
     height: 1000px;
     background-color: $cv-section-color;
-
+    color: $cv-section-font-color;
 
     h2 {
         margin-block-start: 0;
@@ -56,6 +56,22 @@ section {
                 float: right;
                 padding-bottom: 15px;
             }
+        }
+    }
+
+    .detalle-datos-interes {
+        width: 35%;
+        padding-left: 15px;
+
+        .item-interes {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        a{
+            padding-top:15px;
+            color:red;
+            font-size:x-large;
         }
     }
 }
