@@ -1,4 +1,5 @@
-﻿body {
+﻿@charset "UTF-8";
+body {
   background-color: #007AC2;
   font-family: Arial, Helvetica, sans-serif; }
   body .div-principal {
@@ -12,6 +13,12 @@
       border-radius: 9px; }
       body .div-principal .form-tuenti .form-contenido-tuenti {
         padding: 30px; }
+        body .div-principal .form-tuenti .form-contenido-tuenti ul {
+          list-style: none;
+          padding: 0; }
+          body .div-principal .form-tuenti .form-contenido-tuenti ul li {
+            padding-top: 10px;
+            padding-bottom: 10px; }
         body .div-principal .form-tuenti .form-contenido-tuenti .header-twenti {
           font-weight: bold;
           font-size: 23px; }
@@ -22,3 +29,61 @@
           body .div-principal .form-tuenti .form-contenido-tuenti .header-idiomas select {
             border: none;
             color: #007AC2; }
+        body .div-principal .form-tuenti .form-contenido-tuenti section {
+          padding-left: 108px;
+          padding-right: 149px;
+          margin-top: 25px; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-nombres {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-nombres label {
+              width: 25%;
+              float: left; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-mail {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-mail label {
+              width: 25%;
+              float: left; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-mail input {
+              width: 73%; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-genero {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-genero .label-principal-genero {
+              width: 25%;
+              float: left; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-fecha-nacimiento {
+            padding-top: 10px;
+            padding-bottom: 29px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-fecha-nacimiento label {
+              width: 25%;
+              float: left; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-fecha-nacimiento .texto-fecha {
+              display: none; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-fecha-nacimiento select {
+              margin-right: 12px;
+              height: 33px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-fecha-nacimiento .texto-advertencia-edad {
+              font-size: 11px;
+              color: #808080;
+              width: 170px; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-contraseña {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-contraseña label {
+              width: 25%;
+              float: left; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-contraseña input {
+              width: 73%; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-contraseña .texto-advertencia-contrasena {
+              font-size: 11px;
+              color: #007AC2;
+              width: 210px;
+              padding-left: 120px; }
+      body .div-principal .form-tuenti input {
+        border-radius: 5px;
+        border-color: #808080;
+        border-width: 0.5px;
+        height: 30px;
+        outline: 0px; }

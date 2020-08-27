@@ -1,5 +1,6 @@
-﻿body {
-    background-color: #007AC2;
+﻿@import "Helper/Colors";
+body {
+    background-color: $tuenti-color-principal;
     font-family: Arial, Helvetica, sans-serif;
 
     .div-principal {
@@ -18,13 +19,23 @@
             .form-contenido-tuenti {
                 padding: 30px;
 
+                ul {
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+
                 .header-twenti {
                     font-weight: bold;
                     font-size: 23px;
                 }
 
                 .header-twenti-secundario {
-                    color: #808080;
+                    color: $tuenti-color-secundario;
                 }
 
                 .header-idiomas {
@@ -32,9 +43,103 @@
 
                     select {
                         border: none;
-                        color: #007AC2;
+                        color: $tuenti-color-principal;
                     }
                 }
+
+                section {
+                    padding-left: 108px;
+                    padding-right: 149px;
+                    margin-top: 25px;
+
+                    .div-tuenti-contenido-nombres {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        label {
+                            width: 25%;
+                            float: left;
+                        }
+                    }
+
+                    .div-tuenti-contenido-mail {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        label {
+                            width: 25%;
+                            float: left;
+                        }
+
+                        input {
+                            width: 73%;
+                        }
+                    }
+
+                    .div-tuenti-contenido-genero {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        .label-principal-genero {
+                            width: 25%;
+                            float: left;
+                        }
+                    }
+
+                    .div-tuenti-contenido-fecha-nacimiento {
+                        padding-top: 10px;
+                        padding-bottom: 29px;
+
+                        label {
+                            width: 25%;
+                            float: left;
+                        }
+
+                        .texto-fecha {
+                            display: none
+                        }
+
+                        select {
+                            margin-right: 12px;
+                            height: 33px;
+                        }
+
+                        .texto-advertencia-edad {
+                            font-size: 11px;
+                            color: $tuenti-color-secundario;
+                            width: 170px;
+                        }
+                    }
+
+                    .div-tuenti-contenido-contraseña {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        label {
+                            width: 25%;
+                            float: left;
+                        }
+
+                        input {
+                            width: 73%;
+                        }
+
+                        .texto-advertencia-contrasena {
+                            font-size: 11px;
+                            color: $tuenti-color-principal;
+                            width: 210px;
+                            padding-left: 120px;
+                        }
+                    }
+                }
+            }
+
+            input {
+                border-radius: 5px;
+                border-color: $tuenti-color-secundario;
+                border-width: 0.5px;
+                height: 30px;
+                outline: 0px;
             }
         }
     }
