@@ -132,13 +132,19 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\html\CurriculumVitae.html" />
+    <Content Include="Content\html\PortalNoticias.html" />
     <Content Include="Content\html\Tuenti.html" />
     <Content Include="Content\img\FotoCarnet.jpg" />
     <Content Include="Content\img\logo.PNG" />
     <Content Include="Content\img\logoTuenti.PNG" />
+    <Content Include="Content\img\LogoXataka.jpg" />
     <Content Include="Content\StyleCurriculumVitae.css" />
     <Content Include="Content\StyleCurriculumVitae.min.css">
       <DependentUpon>StyleCurriculumVitae.css</DependentUpon>
+    </Content>
+    <Content Include="Content\StylePortalNoticias.css" />
+    <Content Include="Content\StylePortalNoticias.min.css">
+      <DependentUpon>StylePortalNoticias.css</DependentUpon>
     </Content>
     <Content Include="Content\StyleTuenti.css" />
     <Content Include="Content\StyleTuenti.min.css">
@@ -171,6 +177,12 @@
     <Content Include="Scss\StyleCurriculumVitae.min.css">
       <DependentUpon>StyleCurriculumVitae.css</DependentUpon>
     </Content>
+    <Content Include="Scss\StylePortalNoticias.css">
+      <DependentUpon>StylePortalNoticias.scss</DependentUpon>
+    </Content>
+    <Content Include="Scss\StylePortalNoticias.min.css">
+      <DependentUpon>StylePortalNoticias.css</DependentUpon>
+    </Content>
     <Content Include="Scss\StyleTuenti.css">
       <DependentUpon>StyleTuenti.scss</DependentUpon>
     </Content>
@@ -194,6 +206,7 @@
     <Content Include="Scss\StyleCurriculumVitae.scss" />
     <Content Include="Scss\Helper\Colors.scss" />
     <Content Include="Scss\StyleTuenti.scss" />
+    <Content Include="Scss\StylePortalNoticias.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
