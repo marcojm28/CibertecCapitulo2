@@ -47,7 +47,16 @@ body {
                     }
                 }
 
-                section {
+                .div-terminos-condiciones{
+
+                    p{
+                        font-size:13px;
+                    }
+                }
+                    
+                    
+                    
+                    section {
                     padding-left: 108px;
                     padding-right: 149px;
                     margin-top: 25px;
@@ -59,6 +68,21 @@ body {
                         label {
                             width: 25%;
                             float: left;
+                        }
+                    }
+
+                    .div-tuenti-contenido-movil {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        label {
+                            width: 25%;
+                            float: left;
+                        }
+
+                        select {
+                            margin-right: 12px;
+                            height: 33px;
                         }
                     }
 

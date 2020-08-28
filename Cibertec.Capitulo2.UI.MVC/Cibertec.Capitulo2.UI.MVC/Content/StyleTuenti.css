@@ -29,6 +29,8 @@ body {
           body .div-principal .form-tuenti .form-contenido-tuenti .header-idiomas select {
             border: none;
             color: #007AC2; }
+        body .div-principal .form-tuenti .form-contenido-tuenti .div-terminos-condiciones p {
+          font-size: 13px; }
         body .div-principal .form-tuenti .form-contenido-tuenti section {
           padding-left: 108px;
           padding-right: 149px;
@@ -39,6 +41,15 @@ body {
             body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-nombres label {
               width: 25%;
               float: left; }
+          body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-movil {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-movil label {
+              width: 25%;
+              float: left; }
+            body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-movil select {
+              margin-right: 12px;
+              height: 33px; }
           body .div-principal .form-tuenti .form-contenido-tuenti section .div-tuenti-contenido-mail {
             padding-top: 10px;
             padding-bottom: 10px; }
